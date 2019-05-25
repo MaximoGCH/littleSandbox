@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="engine.js"></script>
+		<style type="text/css">
+			canvas{
+				float: left;
+			}
+			.buttons{
+				width: 240px;
+				float: left;
+				text-align: center;
+			}
+			.type{
+				width: 100%;
+				font-size: 22px;
+			}
+			.size{
+				float: left;
+				width: 33.333%;
+				font-size: 35px;
+				text-align: center;
+			}
+			.credits{
+				text-align: center;
+				width: 100%;
+				font-size: 16px;
+			}
+			.space{
+				clear: both;
+				margin-bottom: 30px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<canvas width = "1000" height = "800" id = "canvas"></canvas>
+		<div class = "buttons">
+			<button class = "type" value = "1">Sand</button>
+			<button class = "type"  value = "2">Water</button>
+			<button class = "type"  value = "3">Rock</button>
+			<button class = "type"  value = "4">Wood</button>
+			<button class = "type"  value = "5">Fire</button>
+			<button class = "type"  value = "6">Seed</button>
+			<button class = "type"  value = "7">Acid</button>
+			<button class = "type"  value = "8">Meteorite</button>
+			<div class = "space"></div>
+			<button class = "size" id = "btnMas">+</button>
+			<div class = "size" id = "sizeNumber">1</div>
+			<button class = "size" id = "btnMenos">-</button>
+			<div class = "space"></div>
+			<div class = "credits">Made by <br> Máximo García-Cesto Huret <br> maximo.garcia.cesto@gmail.com</div>
+			<button class = "credits">GitHub</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
+
